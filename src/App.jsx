@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Home from './Sections/Home/Home'
 import Card from './Components/Card/Card'
+import TopFive from './Components/Api/TopFive'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <p>powered by Spotify</p>
       <Home />
       <Card />
+      <TopFive />
     </div>
   )
 }
