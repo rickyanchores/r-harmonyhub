@@ -3,9 +3,16 @@
 @import "../src/Sections/Home/Home.scss";
 @import "../src/Components/Card/Card.scss";
 @import "../src/Components/Api/TopFive.scss";
+@import "../src/Sections/Footer/Footer.scss";
 
 body{
   background: #0e0e0e;
   color: whitesmoke; 
   font-family: monospace;
+}
+
+.App{
+  height: 100vh;
+  display: grid;
+  grid-gap: 1em;
 }

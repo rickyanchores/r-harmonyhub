@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Home from './Sections/Home/Home'
 import Card from './Components/Card/Card'
 import TopFive from './Components/Api/TopFive'
+import Footer from './Sections/Footer/Footer'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <Card />
       <TopFive />
+      <Footer />
     </div>
   )
 }
