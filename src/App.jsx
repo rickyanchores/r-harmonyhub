@@ -6,6 +6,7 @@ import Card from './Components/Card/Card'
 import TopFive from './Components/Api/TopFive'
 import Footer from './Sections/Footer/Footer'
 import Genre from './Components/Genre/Genre'
+import Artist from './Components/Artist/Artist'
 
 
 function App() {
@@ -16,8 +17,14 @@ function App() {
       <h1>r-harmonyhub</h1>
       <p>powered by Spotify</p>
       <Home />
-      <Card />
+      <div className="card-container">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+
       <Genre />
+      <Artist />
       <TopFive />
       <Footer />
     </div>

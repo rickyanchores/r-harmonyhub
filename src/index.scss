@@ -5,6 +5,7 @@
 @import "../src/Components/Api/TopFive.scss";
 @import "../src/Sections/Footer/Footer.scss";
 @import "./Components/Genre/Genre.scss";
+@import "./Components/Artist/Artist.scss";
 
 // COLOR
 $color2: #0c0c0c;
@@ -21,4 +22,10 @@ body{
   //height: 100vh;
   display: grid;
   grid-gap: 1em;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
